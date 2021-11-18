@@ -1,11 +1,19 @@
-# Salty Chat for [FiveM](https://fivem.net/)
+# 🎤Salty Chat for [FiveM](https://fivem.net/)
 
 An example implementation of Salty Chat for [FiveM](https://fivem.net/) OneSync and OneSync Infinity.  
 
 You can report bugs or make sugguestions via issues, or contribute via pull requests - we appreciate any contribution.  
 Join our [Discord](https://gaming.v10networks.com/Discord) and start with [Salty Chat](https://gaming.v10networks.com/SaltyChat)!
 
-# Setup Steps
+# 🖼️SaltyNUI
+This repository was created because I added [SaltyNUI](https://github.com/EgoPvP/SaltyNUI) function.
+- Important server.cfg:
+```
+start saltychat
+start saltynui
+```
+
+# 🦶Setup Steps
 Before starting with the setup, make sure you have OneSync enabled and your server artifacts are up to date.
 
 1. Download the latest [release](https://github.com/v10networkscom/saltychat-fivem/releases) and extract it into your resources
@@ -29,7 +37,7 @@ If the clientside can't connect to the WebSocket, make sure that you can resolve
 
 If it resolved to `127.0.0.1` then your issue is probably somewhere else, if not then you can use e.g. [Google DNS servers](https://developers.google.com/speed/public-dns/docs/using#addresses).
 
-# Keybinds
+# ⌨️Keybinds
 Below are the default keybinds which will be written to your client config (`%appdata%\CitizenFX\fivem.cfg`).  
 Changing the default values wont change the values saved to your config.  
 Keybinds can be changed in game through the keybinding options of GTA V (`ESC` > `Settings` > `Key Bindings` > `FiveM`).
@@ -41,5 +49,3 @@ ToggleRange | Toggles voice range | F1
 TalkPrimary | Talk on primary radio | N
 TalkSecondary | Talk on secondary radio | Caps
 TalkMegaphone | Use the Megaphone (only in police vehicles) | B
-
-
